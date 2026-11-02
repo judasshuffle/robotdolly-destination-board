@@ -12,10 +12,10 @@
     // STEP 2: add YOUR actual domain paths, as configured in Domain Settings > Paths.
     // These are examples, not verified Crompton Moor landmarks.
     var DESTINATIONS = [
-        { name: "TV Studio", url: "/tv-studio" },
-        { name: "The Salon", url: "/salon" },
-        { name: "Town Hall", url: "/town-hall" },
-        { name: "The Shop", url: "/shop" }
+        { name: "TV Studio", url: "/10582.5,9942.49,9999.38/0,-0.698992,0,0.715129" }
+
+
+
     ];
 
     var TITLE = "CROMPTON MOOR";
@@ -73,4 +73,6 @@
     // The installer is allowed to end; the board and client scripts remain in the domain.
     Script.stop();
 }());
+
+
 

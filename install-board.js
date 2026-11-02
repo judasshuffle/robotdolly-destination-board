@@ -7,7 +7,7 @@
     "use strict";
 
     // STEP 1: host board-click.js on HTTPS and paste the actual URL below.
-    var CLICK_SCRIPT_URL = "https://YOUR-HOST.example/board-click.js";
+    var CLICK_SCRIPT_URL = "https://raw.githubusercontent.com/judasshuffle/robotdolly-destination-board/master/board-click.js";
 
     // STEP 2: add YOUR actual domain paths, as configured in Domain Settings > Paths.
     // These are examples, not verified Crompton Moor landmarks.
@@ -73,3 +73,4 @@
     // The installer is allowed to end; the board and client scripts remain in the domain.
     Script.stop();
 }());
+

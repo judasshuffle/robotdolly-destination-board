@@ -12,10 +12,15 @@
     // STEP 2: add YOUR actual domain paths, as configured in Domain Settings > Paths.
     // These are examples, not verified Crompton Moor landmarks.
     var DESTINATIONS = [
-        { name: "TV Studio", url: "/10582.5,9942.49,9999.38/0,-0.698992,0,0.715129" }
-
-
-
+        { name: "rd aura exhibition hall", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/9000.11,10000,8906.02/0,0.00757296,0,0.999972" },
+        { name: "rd build platform", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/5003.42,5014.68,5003.24/0,-0.909257,0,-0.416234" },
+        { name: "rd crompton moor", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/-39.7952,-14.5317,-121.329/0,0.999888,0,0.014944" },
+        { name: "rd fran canal", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/-2492.12,6383.24,-2518.11/0,0.782928,0,0.622112" },
+        { name: "rd ghost world", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/10578.3,9930.63,10113.8/0,0.993355,0,-0.115089" },
+        { name: "rd manchester town hall", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/5049.14,5014.38,5006.08/0,0.403808,0,-0.914844" },
+        { name: "rd shop", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/10059.4,10014.4,10054.8/0,0.849397,0,-0.527755" },
+        { name: "rd the fran salon", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/-4775,4382.48,-4463/0,0,0,1" },
+        { name: "rd tv studio", url: "hifi://6adf659e-5a22-1000-8000-424bb5e1c281/10586.7,9942.49,10003.9/0,0.903835,0,-0.427881" }
     ];
 
     var TITLE = "CROMPTON MOOR";
@@ -73,6 +78,7 @@
     // The installer is allowed to end; the board and client scripts remain in the domain.
     Script.stop();
 }());
+
 
 
 

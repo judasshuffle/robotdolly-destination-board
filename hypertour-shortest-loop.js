@@ -16,8 +16,9 @@ var RobotDollyHyperTour = (function () {
     var timer = null, active = true, phase = "start", leg = null, waitUntil = 0;
     var route = [], index = 0, startIndex = 0, abortReason = "";
     function parse(d) {
-        var match = /\\/(-?[^/]+)\\/(-?[^/]+)$/.exec(d.url);
-        if (!match) return null;
+        var parts = d.url.split("/");
+        if (parts.length < 5) return null;
+        var match = [null, parts[parts.length-2], parts[parts.length-1]];
         var coords = match[1].split(",").map(Number);
         var quat = match[2].split(",").map(Number);
         if (coords.length !== 3 || quat.length !== 4) return null;
